@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 700px;
+    width: 100%;
+    background-image:linear-gradient(tomato,brown);
+    background-image: url(images/donation6.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 60px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    color:white;
+}
+.donate-now{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    border: 2px;
+    color:white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: 500;
+
+}
+     /*------ donate money ----*/
+
+.donate{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h3{
+    font-size: 30px;
+    color:black;
+    font-weight: 500px;
+    line-height: 20px;
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+}
+.amount{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+
+}
+.taka{
+    flex-basis: 40%;
+    border-radius: 80px;
+    margin-bottom: 5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background: #fff3ff;;
+    box-shadow: 30px;
+    transition: 0.5s;
+    
+}
+.taka:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*--- other amount r nicher box ---*/
+.flex-width{
+    width: 100%;
+    text-align: center;
+}
+.donate-box{
+    width:100%;
+    margin-top:30px;
+
+
+}
+
+.donate-here{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(blue,aqua);
+    color:white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 500px;
+}
+/*-----donate plan----*/
+
+.donate-plan{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 16px;
+    padding:15px ;
+}
+.item-row{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+
+}
+.donate-item{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+      /*--------extra peragraph and side image*/
+.your-help{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin:auto;
+    width: 80%;
+    flex-basis:40% ;
+    
+    
+    
+
+}
+.pera{
+    width: 50%;
+    padding: 10px, 10px;
+    margin-top: 40px;
+    
+}
+.contribute{
+
+    text-decoration: none;
+    background-image: linear-gradient(maroon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px ,5px;
+    color:azure;
+    font-weight: 600;
+    margin-top: 150px;
+
+    
+    
+}
+.image-add img{
+    flex-basis: 50%;
+    background-size:100px;
+    
+    border-radius: 30px;
+    padding-left: 100px;
+    
+
+    
+}
+.pera h1{
+    font-size: 30px;
+    padding-top: 50px;
+}
+.pera p{
+    width: auto;
+    padding-right:10px;
+    margin-top: 10px;
+    font-size:14px;
+    text-align: justify;
+}
+
+/*-----contact-----*/
+
+.contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+
+
+}
+.box{
+    position: absolute;
+    width: 90%;
+    max-width: 700px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 2px;
+}
+form{
+    background: #d29898;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+contact h1{
+    width: 50%;
+    justify-content: center;
+    font-size:50px;
+
+}
+input{
+    flex:2;
+    padding: 5px 10px;
+    border-radius: 3px;
+
+}
+button{
+    background: rgb(239, 106, 83);
+    border-radius: 5px;
+}
+/*------footer----*/
+.footer{
+    text-align: center;
+    background: black;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    margin-top: 50px;
+
+    
+}
+.footer h3{
+    color:tomato;
+
+}
+.footer p{
+    color:whitesmoke;
+}
+
